@@ -1,1 +1,1 @@
-# ip-tracker
+# amazon-clone
