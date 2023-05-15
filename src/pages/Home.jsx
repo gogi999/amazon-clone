@@ -1,3 +1,4 @@
+import banner_img from '../assets/images/banner_image.jpg';
 import banner from '../assets/images/banner_image_2.jpg';
 import home_grid_1 from '../assets/images/home_grid_1.jpg';
 import home_grid_2 from '../assets/images/home_grid_2.jpg';
@@ -7,15 +8,15 @@ import home_grid_5 from '../assets/images/home_grid_5.jpg';
 import home_grid_6 from '../assets/images/home_grid_6.jpg';
 import home_grid_7 from '../assets/images/home_grid_7.jpg';
 import home_grid_8 from '../assets/images/home_grid_8.jpg';
-import Carousel from './Carousel';
-import CarouselCategory from './CarouselCategory';
-import HomePageCard from './HomePageCard';
+import Carousel from '../components/Carousel';
+import CarouselCategory from '../components/CarouselCategory';
+import CarouselProduct from '../components/CarouselProduct';
+import HomePageCard from '../components/HomePageCard';
 
 const Home = () => {
     return (
         <div className="bg-amazonclone-background">
             <div className="min-w-[1000px] max-w-[1500px] m-auto">
-                Home
                 <Carousel />
                 <div className="grid grid-cols-3 xl:grid-cols-4 -mt-80">
                     <HomePageCard 
@@ -66,7 +67,11 @@ const Home = () => {
                         />
                     </div>
                 </div>
+                <CarouselProduct />
                 <CarouselCategory />
+                <div className="h-[200px]">
+                    <img src={banner_img} alt="banner-img" className="h-[100%] m-auto" />
+                </div>
             </div>
         </div>
     );

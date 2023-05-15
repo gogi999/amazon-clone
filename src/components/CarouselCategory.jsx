@@ -25,22 +25,22 @@ const CarouselCategory = () => {
                 modules={[Navigation]}
             >
                 <SwiperSlide>
-                    <img src={cat_0} alt="category-0-img" />
+                    <img src={cat_0} alt="category-0-img" className="ml-16" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={cat_1} alt="category-1-img" />
+                    <img src={cat_1} alt="category-1-img" className="ml-12" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={cat_2} alt="category-2-img" />
+                    <img src={cat_2} alt="category-2-img" className="ml-7" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={cat_3} alt="category-3-img" />
+                    <img src={cat_3} alt="category-3-img" className="ml-7" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={cat_4} alt="category-4-img" />
+                    <img src={cat_4} alt="category-4-img" className="ml-7" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={cat_5} alt="category-5-img" />
+                    <img src={cat_5} alt="category-5-img" className="ml-7" />
                 </SwiperSlide>
             </Swiper>
         </div>
